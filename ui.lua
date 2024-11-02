@@ -1,4 +1,4 @@
-local VERSION = "1.2"
+local VERSION = "0.1"
 
 -- LURAPH (if i left it enabled)
 if not LPH_OBFUSCATED then
