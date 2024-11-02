@@ -1,17 +1,3 @@
---[[
-
-鈻戔枅鈻堚枅鈻堚枅鈺椻枒鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈺椻枅鈻堚晽鈻戔枒鈻戔枒鈻戔枒鈻堚枅鈻堚枅鈻堚晽鈻戔枒鈻堚枅鈻堚枅鈻堚枅鈺�
-鈻堚枅鈺斺晲鈺愨枅鈻堚晽鈺氣晲鈺愨枅鈻堚晹鈺愨晲鈺濃枅鈻堚晳鈻戔枒鈻戔枒鈻戔枅鈻堚晹鈺愨晲鈻堚枅鈺椻枅鈻堚晹鈺愨晲鈺愨晲鈺�
-鈻堚枅鈻堚枅鈻堚枅鈻堚晳鈻戔枒鈻戔枅鈻堚晳鈻戔枒鈻戔枅鈻堚晳鈻戔枒鈻戔枒鈻戔枅鈻堚枅鈻堚枅鈻堚枅鈺戔暁鈻堚枅鈻堚枅鈻堚晽鈻�
-鈻堚枅鈺斺晲鈺愨枅鈻堚晳鈻戔枒鈻戔枅鈻堚晳鈻戔枒鈻戔枅鈻堚晳鈻戔枒鈻戔枒鈻戔枅鈻堚晹鈺愨晲鈻堚枅鈺戔枒鈺氣晲鈺愨晲鈻堚枅鈺�
-鈻堚枅鈺戔枒鈻戔枅鈻堚晳鈻戔枒鈻戔枅鈻堚晳鈻戔枒鈻戔枅鈻堚枅鈻堚枅鈻堚枅鈺椻枅鈻堚晳鈻戔枒鈻堚枅鈺戔枅鈻堚枅鈻堚枅鈻堚晹鈺�
-鈺氣晲鈺濃枒鈻戔暁鈺愨暆鈻戔枒鈻戔暁鈺愨暆鈻戔枒鈻戔暁鈺愨晲鈺愨晲鈺愨晲鈺濃暁鈺愨暆鈻戔枒鈺氣晲鈺濃暁鈺愨晲鈺愨晲鈺愨暆鈻�
-
-Made by RoadToGlory#9879
-Join: https://discord.gg/xu5dDS3Pb9
-
-]]
-
 local VERSION = "1.2"
 
 -- LURAPH (if i left it enabled)
@@ -1204,7 +1190,7 @@ do
             Converted["_Name"].Name = "Name"
             Converted["_Name"].Parent = Converted["_UI_Library"]
 
-            Converted["_Creator"].Value = "RoadToGlory#9879"
+            Converted["_Creator"].Value = "X"
             Converted["_Creator"].Name = "Creator"
             Converted["_Creator"].Parent = Converted["_UI_Library"]
 
@@ -1436,7 +1422,7 @@ do
             Converted["_Frame"].Parent = Converted["_Main1"]
 
             Converted["_B"].Font = Enum.Font.Gotham
-            Converted["_B"].Text = "Atlas UI Lib: RoadToGlory#9879" -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
+            Converted["_B"].Text = "Custom Lib." -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
             Converted["_B"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_B"].TextSize = 12
             Converted["_B"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1449,7 +1435,7 @@ do
             Converted["_B"].Parent = Converted["_Frame"]
 
             Converted["_A"].Font = Enum.Font.Gotham
-            Converted["_A"].Text = "AWP: RoadToGlory#9879"
+            Converted["_A"].Text = ""
             Converted["_A"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_A"].TextSize = 12
             Converted["_A"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -3257,7 +3243,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_0_Toggle"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -3559,7 +3544,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_1_Slider"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -3919,7 +3903,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_2_SliderToggle"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -4336,7 +4319,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_3_Paragraph"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -4454,7 +4436,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_4_Button"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -4730,7 +4711,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_5_Textbox"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -5010,7 +4990,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_6_Interactable"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -5349,7 +5328,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_7_Keybind"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -5643,7 +5621,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_8_Dropdown"] = Instance.new("Frame");
                 ["_Main"] = Instance.new("Frame");
@@ -5946,7 +5923,6 @@ do
 
         local scroll = element.Secondary.ScrollingFrame
         local function makeButton(func)
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_1_button"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -6236,7 +6212,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_9_ColorPicker"] = Instance.new("Frame");
                 ["_Main"] = Instance.new("Frame");
@@ -6731,6 +6706,6 @@ do
     end
 end
 
-print("Atlas UI Library v"..VERSION.." by RoadToGlory#9879 has initiated")
+print("Atlas UI Library v"..VERSION.." by X has initiated")
 
 return Library
