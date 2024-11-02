@@ -126,7 +126,6 @@ do
 
     function utility:DoClickEffect(element)
         local function makeEffect()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["__buttonEffect"] = Instance.new("Frame");
                 ["_ImageLabel"] = Instance.new("ImageLabel");
@@ -211,7 +210,6 @@ do
     end
 
     function utility:CreateButtonObject(obj)
-        -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
         local Converted = {
             ["_Button"] = Instance.new("TextButton");
         }
@@ -234,7 +232,6 @@ do
     end
 
     function utility:CreateHint()
-        -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
         local Converted = {
             ["_Hint"] = Instance.new("StringValue");
         }
@@ -345,7 +342,6 @@ do
         info.FullName = info.FullName or info.Name
 
         local function makeLoader()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_Loader"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -1019,7 +1015,6 @@ do
         end
 
         local function makeLibrary()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_Atlas"] = Instance.new("ScreenGui");
                 ["_UI_Library"] = Instance.new("Folder");
@@ -2596,7 +2591,6 @@ do
         info.Callback = info.Callback or utility.BlankFunction
 
         local function makeNotif()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
             -- Instances:
 
@@ -2878,7 +2872,6 @@ do
         local pageNum = _self._page_num
 
         local function makeSelector()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_0_page"] = Instance.new("Frame");
                 ["_TextLabel"] = Instance.new("TextLabel");
@@ -2952,7 +2945,6 @@ do
         end
 
         local function makeContents()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_Page"] = Instance.new("Frame");
                 ["_ScrollingFrame"] = Instance.new("ScrollingFrame");
@@ -3079,7 +3071,6 @@ do
         local color = _self.color
 
         local function makeSection()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_Section"] = Instance.new("Frame");
                 ["_Contents"] = Instance.new("Frame");
