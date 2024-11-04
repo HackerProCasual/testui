@@ -6697,6 +6697,6 @@ do
     end
 end
 
-print("Atlas UI Library v"..VERSION.." by X has initiated")
+print("Yield Hub v"..VERSION.." by Bytewaved has initiated")
 
 return Library
